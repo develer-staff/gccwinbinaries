@@ -12,7 +12,7 @@ Also, this installer tries to fix all the problems with compiling Python distuti
 
 Download the package here:
 
-  * **<http://www.develer.com/~rasky/gcc-mingw-4.3.3-setup.exe>**
+  * **<https://github.com/develersrl/gccwinbinaries/releases/download/v1.1/gcc-mingw-4.3.3-setup.exe>**
 
 It's GPL licensed (do I really need to say that?)
 
