@@ -1,12 +1,10 @@
-# Unofficial MinGW GCC binaries for Windows
+# Windows GCC (MinGW) binaries for Python develoeprs
 
 **UPDATE 2009/10/09: Updated to GCC 4.3.3!**
 
-This page contains a friendly installer for GCC 4.3.3 for Windows (native "mingw" win32 version). It's an unofficial release, not promoted by the MinGW project. It features **full Python integration**.
+This package containes an installer for GCC/MinGW (the fantastic, unofficial build called 'TDM'), that fully integrates within your official Python installation to allow compilation of extensions.
 
-At the point of writing (2009), the MinGW maintainers believe that GCC 4.x is not ready for an official release (see for instance [this thread](http://article.gmane.org/gmane.comp.gnu.mingw.user/21938)). I respectfully disagree with them and believe that any release is better than no release, and even more so since GCC is very *hard* to compile. To be clear, let me restate that **these binaries are not endorsed by the MinGW project** in any way. They might or might not work for you (and they happen to work very very well for me).
-
-Also, this installer tries to fix all the problems with compiling Python distutils extensions with GCC (the good ol' MSVCR71.DLL problem, if you know what I am speaking of). See below for details, but it really should Just Works(TM). Using GCC, it is possible to produce extensions (`.pyd`) which are fully compatible with the official [python.org](http://python.org) distribution (so, they can be mix'n'matched with extensions compiled with Visual Studio).
+It tries to fix all the problems with compiling Python distutils extensions with GCC (the good ol' MSVCR71.DLL problem, if you know what I am speaking of). See below for details, but it really should Just Works(TM). Using GCC, it is possible to produce extensions (`.pyd`) which are fully compatible with the official [python.org](http://python.org) distribution (so, they can be mix'n'matched with extensions compiled with Visual Studio).
 
 ### Download
 
@@ -43,7 +41,7 @@ The source code for the installer (a [InnoSetup](http://www.jrsoftware.org/isinf
  1. Make sure that the box `Add GCC to your system PATH` is checked.
  1. Make sure that the box `Bind to Python installations` is checked.
  1. Make sure that the box `Set the default runtime library` is checked. Then, select the library you need:
-    * For Python 2.6, 2.7, 3.0 or 3.1, you want `MSVCR90.DLL`
+    * For Python 2.6, 2.7, 3.x, you want `MSVCR90.DLL`
     * For Python 2.4 or 2.5, you want `MSVCR71.DLL`
     * For Python 2.3 or older, you want `MSVCRT.DLL`
  1. Mark which Python installations will use GCC by default. It's really up to you :)
