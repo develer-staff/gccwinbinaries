@@ -26,7 +26,7 @@ It contains:
 
 The source code for all the packages above can be found in many mirrors including the [MinGW official download page](http://www.mingw.org/download.shtml). Or you can ask them directly to me and I will give you a download link from this site (to be fully GPL compliant *and* save my spare bandwidth).
 
-The source code for the installer (a [InnoSetup](http://www.jrsoftware.org/isinfo.php) script) can be found [here](http://www.develer.com/~rasky/mingw-iss.zip).
+The source code for the installer (a [InnoSetup](http://www.jrsoftware.org/isinfo.php) script) can be found in the file [mingw.iss](mingw.iss).
 
 ### What does the installer do?
 
