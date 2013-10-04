@@ -1,6 +1,6 @@
 ; gcc-mingw installer script
 ; by Giovanni Bajo <rasky@develer.com>
-; Released under the GPL
+; Released under the GPLv2
 ;
 ; The installer produced by this script has the following features:
 ;
