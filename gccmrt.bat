@@ -3,7 +3,7 @@
 rem ***************************************************************
 rem Batch file to change GCC runtime library
 rem Coded by Giovanni Bajo <rasky@develer.com>
-rem Public domain
+rem Released under GPLv2
 rem ***************************************************************
 
 set MINGW_LIB_DIR=%~dp0\..\lib
