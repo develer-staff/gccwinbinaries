@@ -1,4 +1,4 @@
-# Windows GCC (MinGW) binaries for Python develoeprs
+# Windows GCC (MinGW) binaries for Python developers
 
 **UPDATE 2009/10/09: Updated to GCC 4.3.3!**
 
